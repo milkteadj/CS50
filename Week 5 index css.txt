@@ -1,0 +1,54 @@
+.header
+{
+    margin: 1% 1% 1% 1%;
+    background-color: lightblue;
+    width: 1000px;
+    min-width: 98%;
+    float: left;
+    overflow: hidden;
+}
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;}
+    #Name{
+        padding: 1% 20% 1% 0;
+        font-size: 300%;
+        display: inline-block;
+    }
+    #email
+    {
+        display: inline-block;
+        padding: 5px 0 1% 0;
+        font-size: 100%;
+    }
+    #cell
+    {   display: inline-block;
+        padding: 0 0 0 1%;
+        font-size: 100%;
+    }
+img
+{
+    margin: 1% 1% 1% 1%;
+}
+.container
+{
+    text-align: center;
+    position: relative;
+    font-family: "Impact";
+    font-size: 40px;
+    color: black;
+}
+.pictext
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+a
+{
+    color: lightblue;
+}
+

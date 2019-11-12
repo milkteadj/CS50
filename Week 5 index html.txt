@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+        <!--Blue Header/-->
+        <div class = "header" align ="center">
+            <div class = "width">
+            <ul>
+                <a id = "Name">
+                    <b>Jared J.H. Ni</b>
+                </a>
+                <li id = "email">
+                    Email: milkteadj@gmail.com</li>
+                <li id = "cell">Cell: (425) 463-7170</li>
+            </ul>
+        </div></div>
+
+        <!--Gallery Directory/-->
+        <table align="center">
+            <td><div class= "container">
+                <a href = "fun.html">
+                    <img src= pictures/photo.jpg width = "500" height = "370">
+                    <div class = "pictext"> Fun</div>
+                </a>
+            </div></td>
+            <td><div class="container">
+                    <a href = friendsfamilies.html>
+                        <div id = "friends"><img src = pictures/schoolfriends.jpg width = 500 height = 400></div>
+                        <div class = "pictext"> Friends & Family</div>
+                    </a>
+            </div></td>
+            <td><div class = "container">
+                    <a href = "activities.html">
+                        <img src= pictures/bsa.jpg width = "500" height = "350">
+                        <div class = "pictext"> Activities</div>
+                    </a>
+            </div></td>
+        </table>
+
+
+
+    </body>
+</html>
