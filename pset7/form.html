@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Form</h1>
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <form action="/form" method="post">
+
+        <!-- TODO -->
+        <input name="name" placeholder="Name" type="<text>">
+
+        <input name="gender" type="radio" value="male">Male
+        <input name="gender" type="radio" value="female">Female<br>
+
+        <select name="grade">
+            <option disabled selected value="">Grade</option>
+            <option value="9th">9th</option>
+            <option value="10th">10th</option>
+            <option value="11th">11th</option>
+            <option value="12th">12th</option>
+        </select>
+
+        <input name="email" placeholder="email" type="<text>">
+
+        <select name="house">
+            <option disabled selected value="">Hogwarts house</option>
+            <option value="Gryffidor">Gryffindor</option>
+            <option value="Slyterin">Slytherin</option>
+            <option value="Huffalpaff">Hufflepuff</option>
+            <option value="Ravenclaw">Ravenclaw</option>
+        </select>
+
+        <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+        <button class="btn btn-primary" type="submit">Submit</button>
+
+    </form>
+
+    <script>
+        /* TODO */
+        document.querySelector('form').onsubmit = function() {
+            if (!document.querySelector('input').value) {
+                alert('You must provide your name!');
+                return false;
+            }
+
+            else if (!document.querySelector('select').value) {
+                alert('you must provide your house!');
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+
+{% endblock %}
